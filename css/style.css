@@ -843,3 +843,29 @@ input:focus {
     margin: 38px auto 0 auto;
     padding: 0 18px;
 }
+
+body.alto-contraste {
+  background: #000 !important;
+  color: #fff !important;
+}
+
+body.alto-contraste a,
+body.alto-contraste a:visited {
+  color: #fff !important;
+  text-decoration: underline;
+}
+
+body.alto-contraste header,
+body.alto-contraste nav,
+body.alto-contraste footer {
+  background: #000 !important;
+  color: #fff !important;
+}
+
+body.alto-contraste .card, 
+body.alto-contraste section, 
+body.alto-contraste .bio-card {
+  background: #111 !important;
+  color: #fff !important;
+  border-color: #fff !important;
+}
